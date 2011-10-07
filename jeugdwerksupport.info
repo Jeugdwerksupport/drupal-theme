@@ -1,0 +1,25 @@
+name = Jeugdwerksupport
+description = This is the theme for www.jeugdwerksupport.nl.
+version = 0.1
+core = 7.x
+engine = phptemplate
+
+; See http://drupal.org/node/171205 for the available options
+
+; Stylesheets
+stylesheets[all][] = css/layout.css
+
+; Regions
+regions[preface] = Preface
+regions[content] = Content
+regions[content_secondary] = Secondary content
+regions[sidebar_first] = Sidebar first
+regions[footer] = Footer
+regions[help] = Help
+
+; Features
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = favicon
+features[] = main_menu
